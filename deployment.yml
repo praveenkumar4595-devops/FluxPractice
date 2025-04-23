@@ -5,7 +5,7 @@ metadata:
   labels:
     app: ci-pipeline
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: ci-pipeline
